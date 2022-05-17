@@ -102,7 +102,7 @@ namespace Rcpp{
          * 0.0 is wrapped as a numeric vector using wrap( const& double )
          * ...
          */
-        #include <Rcpp/generated/Language__ctors.h>
+        #include "generated/Language__ctors.h"
 
         /**
          * sets the symbol of the call
