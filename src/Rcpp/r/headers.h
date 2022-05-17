@@ -60,7 +60,7 @@
 #endif
 
 #include "../platform/compiler.h"
-#include "../config.h>"
+#include "../config.h"
 #include "../macros/macros.h"
 
 #include "R.h"
