@@ -23,7 +23,7 @@
 #ifndef Rcpp__vector__MatrixBase_h
 #define Rcpp__vector__MatrixBase_h
 
-#include <Rcpp/sugar/matrix/tools.h>
+#include "../sugar/matrix/tools.h"
 
 namespace Rcpp{
 
