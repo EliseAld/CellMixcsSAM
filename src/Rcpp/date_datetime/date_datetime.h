@@ -22,13 +22,13 @@
 #ifndef Rcpp__Date_Datetime_h
 #define Rcpp__Date_Datetime_h
 
-#include <Rcpp/date_datetime/Date.h>
-#include <Rcpp/date_datetime/oldDateVector.h>
-#include <Rcpp/date_datetime/newDateVector.h>
+#include "Date.h"
+#include "oldDateVector.h"
+#include "newDateVector.h"
 
-#include <Rcpp/date_datetime/Datetime.h>
-#include <Rcpp/date_datetime/oldDatetimeVector.h>
-#include <Rcpp/date_datetime/newDatetimeVector.h>
+#include "Datetime.h"
+#include "oldDatetimeVector.h"
+#include "newDatetimeVector.h"
 
 namespace Rcpp {
 
