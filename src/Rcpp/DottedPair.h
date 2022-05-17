@@ -36,7 +36,7 @@ public:
 	    Storage::set__(x) ;
 	}
 
-	#include <Rcpp/generated/DottedPair__ctors.h>
+	#include "generated/DottedPair__ctors.h"
 
 	void update(SEXP){}
 
