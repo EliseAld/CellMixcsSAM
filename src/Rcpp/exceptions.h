@@ -177,9 +177,9 @@ struct LongjumpException {
 // warning, and stop exception functions or to use the generated argument macro
 // based on whether the compiler supports c++11 or not.
 #if __cplusplus >= 201103L
-# include <Rcpp/exceptions/cpp11/exceptions.h>
+# include "exceptions/cpp11/exceptions.h"
 #else
-# include <Rcpp/exceptions/cpp98/exceptions.h>
+# include "exceptions/cpp98/exceptions.h"
 #endif
 
 namespace Rcpp {
