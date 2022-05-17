@@ -22,9 +22,9 @@
 #ifndef Rcpp_Function_h
 #define Rcpp_Function_h
 
-#include <RcppCommon.h>
+#include "../RcppCommon.h"
 
-#include <Rcpp/grow.h>
+#include "grow.h"
 
 namespace Rcpp{
 
