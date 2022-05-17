@@ -18,8 +18,8 @@
 #ifndef Rcpp_protection_protection_H
 #define Rcpp_protection_protection_H
 
-#include <Rcpp/protection/Shield.h>
-#include <Rcpp/protection/Shelter.h>
-#include <Rcpp/protection/Armor.h>
+#include "../protection/Shield.h"
+#include "../protection/Shelter.h"
+#include "../protection/Armor.h"
 
 #endif
