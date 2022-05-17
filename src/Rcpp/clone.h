@@ -22,7 +22,7 @@
 #ifndef Rcpp_clone_h
 #define Rcpp_clone_h
 
-#include <RcppCommon.h>
+#include "../RcppCommon.h"
 
 namespace Rcpp{
 
