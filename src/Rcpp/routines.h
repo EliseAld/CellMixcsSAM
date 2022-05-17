@@ -23,7 +23,7 @@
 #ifndef RCPP_ROUTINE_H
 #define RCPP_ROUTINE_H
 
-#include <Rcpp/iostream/Rstreambuf.h>
+#include "iostream/Rstreambuf.h"
 
 #if defined(COMPILING_RCPP)
 
