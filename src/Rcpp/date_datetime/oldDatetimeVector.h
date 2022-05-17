@@ -22,9 +22,9 @@
 #ifndef Rcpp__DatetimeVector_h
 #define Rcpp__DatetimeVector_h
 
-#include <RcppCommon.h>
+#include "../../RcppCommon.h"
 
-#include <Rcpp/internal/GreedyVector.h>
+#include "../internal/GreedyVector.h"
 
 namespace Rcpp {
 
