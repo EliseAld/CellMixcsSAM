@@ -23,7 +23,7 @@
 #define Rcpp__Date_h
 
 #if defined(WIN32) || defined(__WIN32) || defined(__WIN32__)
-#include <time.h>
+#include "time.h"
 #endif
 
 namespace Rcpp {
