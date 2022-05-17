@@ -22,8 +22,8 @@
 #ifndef Rcpp__DateVector_h
 #define Rcpp__DateVector_h
 
-#include <RcppCommon.h>
-#include <Rcpp/internal/GreedyVector.h>
+#include "../../RcppCommon.h"
+#include "../internal/GreedyVector.h"
 
 namespace Rcpp {
 
