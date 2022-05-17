@@ -59,7 +59,7 @@
 # pragma push_macro("makedev")
 #endif
 
-#include <Rcpp/platform/compiler.h>
+#include <../platform/compiler.h>
 #include <Rcpp/config.h>
 #include <Rcpp/macros/macros.h>
 
