@@ -82,7 +82,7 @@ namespace Rcpp{
             return Rcpp_fast_eval(call, R_GlobalEnv);
         }
 
-        #include <Rcpp/generated/Function__operator.h>
+        #include "generated/Function__operator.h"
 
         /**
          * Returns the environment of this function
