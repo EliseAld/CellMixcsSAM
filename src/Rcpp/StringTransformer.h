@@ -21,7 +21,7 @@
 #ifndef Rcpp__StringTransformer_h
 #define Rcpp__StringTransformer_h
 
-#include <RcppCommon.h>
+#include "../RcppCommon.h"
 
 namespace Rcpp{
 
