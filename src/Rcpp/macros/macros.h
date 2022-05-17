@@ -124,14 +124,14 @@ inline std::string short_file_name(const char* file)
 
 #define Rcpp_error(MESSAGE) throw Rcpp::exception(MESSAGE, __FILE__, __LINE__)
 
-#include <debug.h>
-#include <unroll.h>
-#include <dispatch.h>
-#include <xp.h>
-#include <traits.h>
-#include <config.hpp>
-#include <cat.hpp>
-#include <module.h>
-#include <interface.h>
+#include "debug.h"
+#include "unroll.h"
+#include "dispatch.h"
+#include "xp.h"
+#include "traits.h"
+#include "config.hpp"
+#include "cat.hpp"
+#include "module.h"
+#include "interface.h"
 
 #endif
