@@ -59,9 +59,9 @@
 # pragma push_macro("makedev")
 #endif
 
-#include <Rcpp/platform/compiler.h>
-#include <Rcpp/config.h>
-#include <Rcpp/macros/macros.h>
+#include <./Rcpp/platform/compiler.h>
+#include <./Rcpp/config.h>
+#include <./Rcpp/macros/macros.h>
 
 #include <R.h>
 #include <Rinternals.h>
