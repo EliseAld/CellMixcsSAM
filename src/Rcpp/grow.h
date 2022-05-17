@@ -22,8 +22,8 @@
 #ifndef Rcpp_grow_h
 #define Rcpp_grow_h
 
-#include <RcppCommon.h>
-#include <Rcpp/Named.h>
+#include "../RcppCommon.h"
+#include "Named.h"
 
 namespace Rcpp {
 
