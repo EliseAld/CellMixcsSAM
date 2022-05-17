@@ -59,16 +59,16 @@
 # pragma push_macro("makedev")
 #endif
 
-#include <../platform/compiler.h>
-#include <../config.h>
-#include <../macros/macros.h>
+#include "../platform/compiler.h"
+#include "../config.h>"
+#include "../macros/macros.h"
 
-#include <R.h>
-#include <Rinternals.h>
-#include <R_ext/Complex.h>
-#include <R_ext/Parse.h>
-#include <R_ext/Rdynload.h>
-#include <Rversion.h>
+#include "R.h"
+#include "Rinternals.h"
+#include "R_ext/Complex.h"
+#include "R_ext/Parse.h"
+#include "R_ext/Rdynload.h"
+#include "Rversion.h"
 
 /* Ensure NORET defined (normally provided by R headers with R >= 3.2.0) */
 #ifndef NORET
