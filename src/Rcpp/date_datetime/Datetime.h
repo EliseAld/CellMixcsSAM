@@ -22,7 +22,7 @@
 #ifndef Rcpp__Datetime_h
 #define Rcpp__Datetime_h
 
-#include "../RcppCommon.h"
+#include "../../RcppCommon.h"
 
 #if defined(WIN32) || defined(__WIN32) || defined(__WIN32__)
 #include "time.h"
