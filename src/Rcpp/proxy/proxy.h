@@ -23,7 +23,7 @@
 #include "RObjectMethods.h"
 #include "AttributeProxy.h"
 #include "TagProxy.h"
-#include ProtectedProxy.h"
+#include "ProtectedProxy.h"
 #include "SlotProxy.h"
 #include "Binding.h"
 #include "FieldProxy.h"
