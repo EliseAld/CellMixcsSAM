@@ -22,8 +22,8 @@
 #ifndef Rcpp__Formula_h
 #define Rcpp__Formula_h
 
-#include <RcppCommon.h>
-#include <Rcpp/Language.h>
+#include "../RcppCommon.h"
+#include "Language.h"
 
 namespace Rcpp{
 
