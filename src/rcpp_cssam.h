@@ -19,7 +19,7 @@
 #ifndef _CellMix_RCPP_H
 #define _CellMix_RCPP_H
 
-#include <Rcpp.h>
+#include "Rcpp.h"
 
 /*
  * note : RcppExport is an alias to `extern "C"` defined by Rcpp.
