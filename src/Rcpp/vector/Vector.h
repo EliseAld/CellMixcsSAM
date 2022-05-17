@@ -21,7 +21,7 @@
 #ifndef Rcpp__vector__Vector_h
 #define Rcpp__vector__Vector_h
 
-#include <Rcpp/vector/Subsetter.h>
+#include "Subsetter.h"
 
 namespace Rcpp{
 
@@ -1123,7 +1123,7 @@ public:
         return Vector( 0 ) ;
     }
 
-    #include <Rcpp/generated/Vector__create.h>
+    #include "../generated/Vector__create.h"
 
 public:
 
