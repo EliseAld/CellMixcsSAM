@@ -22,9 +22,9 @@
 #ifndef Rcpp__Vector_h
 #define Rcpp__Vector_h
 
-#include <RcppCommon.h>
-#include <Rcpp/exceptions.h>
-#include <Rcpp/r_cast.h>
+#include "../RcppCommon.h"
+#include "exceptions.h"
+#include "r_cast.h"
 
 namespace Rcpp{
     namespace traits{
@@ -41,36 +41,36 @@ namespace Rcpp{
 
 }
 
-#include <Rcpp/vector/00_forward_Vector.h>
-#include <Rcpp/vector/no_init.h>
+#include "vector/00_forward_Vector.h"
+#include "vector/no_init.h"
 
-#include <Rcpp/vector/00_forward_proxy.h>
-#include <Rcpp/vector/vector_from_string.h>
+#include "vector/00_forward_proxy.h"
+#include "vector/vector_from_string.h"
 
-#include <Rcpp/vector/converter.h>
-#include <Rcpp/vector/RangeIndexer.h>
-#include <Rcpp/vector/Vector.h>
-#include <Rcpp/vector/proxy.h>
-#include <Rcpp/vector/traits.h>
+#include "vector/converter.h"
+#include "vector/RangeIndexer.h"
+#include "vector/Vector.h"
+#include "vector/proxy.h"
+#include "vector/traits.h"
 
-#include <Rcpp/vector/DimNameProxy.h>
+#include "vector/DimNameProxy.h"
 
-#include <Rcpp/vector/Matrix.h>
-#include <Rcpp/vector/SubMatrix.h>
-#include <Rcpp/vector/MatrixRow.h>
-#include <Rcpp/vector/MatrixColumn.h>
-#include <Rcpp/vector/instantiation.h>
+#include "vector/Matrix.h"
+#include "vector/SubMatrix.h"
+#include "vector/MatrixRow.h"
+#include "vector/MatrixColumn.h"
+#include "vector/instantiation.h"
 
-#include <Rcpp/vector/string_proxy.h>
-#include <Rcpp/vector/const_string_proxy.h>
-#include <Rcpp/vector/generic_proxy.h>
-#include <Rcpp/vector/const_generic_proxy.h>
+#include "vector/string_proxy.h"
+#include "vector/const_string_proxy.h"
+#include "vector/generic_proxy.h"
+#include "vector/const_generic_proxy.h"
 
-#include <Rcpp/String.h>
-#include <Rcpp/vector/LazyVector.h>
-#include <Rcpp/vector/swap.h>
+#include "String.h"
+#include "vector/LazyVector.h"
+#include "vector/swap.h"
 
-#include <Rcpp/vector/ChildVector.h>
-#include <Rcpp/vector/ListOf.h>
+#include "vector/ChildVector.h"
+#include "vector/ListOf.h"
 
 #endif
