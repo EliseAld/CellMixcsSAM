@@ -22,9 +22,9 @@
 #ifndef Rcpp_Pairlist_h
 #define Rcpp_Pairlist_h
 
-#include <RcppCommon.h>
-#include <Rcpp/DottedPair.h>
-#include <Rcpp/r_cast.h>
+#include "../RcppCommon.h"
+#include "DottedPair.h"
+#include "r_cast.h"
 
 namespace Rcpp{
 
@@ -43,7 +43,7 @@ namespace Rcpp{
             Storage::set__(r_cast<LISTSXP>(x)) ;
         }
 
-        #include <Rcpp/generated/Pairlist__ctors.h>
+        #include "generated/Pairlist__ctors.h"
 
         void update(SEXP x){
             SET_TYPEOF( x, LISTSXP ) ;
