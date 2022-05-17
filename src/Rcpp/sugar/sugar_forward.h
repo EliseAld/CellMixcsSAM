@@ -23,11 +23,11 @@
 #define RCPP_SUGAR_FORWARD_H
 
 // traits
-#include <Rcpp/sugar/operators/r_binary_op.h>
+#include "operators/r_binary_op.h"
 
 // abstractions
-#include <Rcpp/sugar/logical/logical.h>
+#include "logical/logical.h"
 
-#include <Rcpp/sugar/Range.h>
+#include "Range.h"
 
 #endif
