@@ -22,7 +22,7 @@
 #ifndef Rcpp__newDatetimeVector_h
 #define Rcpp__newDatetimeVector_h
 
-#include <RcppCommon.h>
+#include "../../RcppCommon.h"
 
 namespace Rcpp {
 
