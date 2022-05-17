@@ -22,7 +22,7 @@
 #ifndef Rcpp_rcast_h
 #define Rcpp_rcast_h
 
-#include <Rcpp/exceptions.h>
+#include "exceptions.h"
 
 namespace Rcpp {
     namespace internal {
