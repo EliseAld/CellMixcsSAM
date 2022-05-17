@@ -22,7 +22,7 @@
 #ifndef Rcpp_Module_h
 #define Rcpp_Module_h
 
-#include <Rcpp/config.h>
+#include "config.h"
 
 namespace Rcpp{
 
