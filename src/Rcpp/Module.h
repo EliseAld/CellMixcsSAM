@@ -83,14 +83,14 @@ namespace Rcpp{
 
 }
 
-#include <Rcpp/module/CppFunction.h>
-#include <Rcpp/module/get_return_type.h>
-#include <Rcpp/module/Module_generated_get_signature.h>
+#include "module/CppFunction.h"
+#include "module/get_return_type.h"
+#include "module/Module_generated_get_signature.h"
 
     // templates CppFunction0, ..., CppFunction65
-#include <Rcpp/module/Module_generated_CppFunction.h>
-#include <Rcpp/module/class_Base.h>
-#include <Rcpp/module/Module.h>
+#include "module/Module_generated_CppFunction.h"
+#include "module/class_Base.h"
+#include "module/Module.h"
 
 namespace Rcpp{
 
@@ -130,11 +130,11 @@ namespace Rcpp{
         ParentMethod* parent_method_pointer ;
     } ;
 
-#include <Rcpp/module/Module_generated_ctor_signature.h>
-#include <Rcpp/module/Module_generated_Constructor.h>
-#include <Rcpp/module/Module_generated_Factory.h>
+#include "module/Module_generated_ctor_signature.h"
+#include "module/Module_generated_Constructor.h"
+#include "module/Module_generated_Factory.h"
 
-#include <Rcpp/module/Module_generated_class_signature.h>
+#include "module/Module_generated_class_signature.h"
 
     typedef bool (*ValidConstructor)(SEXP*,int) ;
     typedef bool (*ValidMethod)(SEXP*,int) ;
@@ -259,8 +259,8 @@ namespace Rcpp{
 
     } ;
 
-#include <Rcpp/module/Module_generated_CppMethod.h>
-#include <Rcpp/module/Module_generated_Pointer_CppMethod.h>
+#include "module/Module_generated_CppMethod.h"
+#include module/Module_generated_Pointer_CppMethod.h"
 
     template <typename Class>
     class CppProperty {
@@ -335,9 +335,9 @@ namespace Rcpp{
 
     } ;
 
-#include <Rcpp/module/Module_Property.h>
+#include "module/Module_Property.h"
 
-#include <Rcpp/module/class.h>
+#include "module/class.h"
 
     template <typename Enum, typename Parent>
     class enum_ {
@@ -369,7 +369,7 @@ namespace Rcpp{
 }
 
 // function factories
-#include <Rcpp/module/Module_generated_function.h>
+#include "module/Module_generated_function.h"
 
 namespace Rcpp {
 
