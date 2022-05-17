@@ -35,48 +35,48 @@ struct int2type { enum { value = I }; };
 }
 }
 
-#include <Rcpp/traits/integral_constant.h>
-#include <Rcpp/traits/same_type.h>
-#include <Rcpp/traits/enable_if.h>
-#include <Rcpp/traits/is_wide_string.h>
-#include <Rcpp/traits/is_arithmetic.h>
-#include <Rcpp/traits/char_type.h>
-#include <Rcpp/traits/named_object.h>
-#include <Rcpp/traits/is_convertible.h>
-#include <Rcpp/traits/has_iterator.h>
-#include <Rcpp/traits/expands_to_logical.h>
-#include <Rcpp/traits/matrix_interface.h>
-#include <Rcpp/traits/is_sugar_expression.h>
-#include <Rcpp/traits/is_eigen_base.h>
-#include <Rcpp/traits/has_na.h>
-#include <Rcpp/traits/storage_type.h>
-#include <Rcpp/traits/r_sexptype_traits.h>
-#include <Rcpp/traits/r_type_traits.h>
-#include <Rcpp/traits/un_pointer.h>
-#include <Rcpp/traits/is_pointer.h>
-#include <Rcpp/traits/wrap_type_traits.h>
-#include <Rcpp/traits/longlong.h>
-#include <Rcpp/traits/module_wrap_traits.h>
-#include <Rcpp/traits/is_na.h>
-#include <Rcpp/traits/is_finite.h>
-#include <Rcpp/traits/is_infinite.h>
-#include <Rcpp/traits/is_nan.h>
-#include <Rcpp/traits/is_bool.h>
-#include <Rcpp/traits/if_.h>
-#include <Rcpp/traits/get_na.h>
-#include <Rcpp/traits/is_trivial.h>
-#include <Rcpp/traits/init_type.h>
+#include "integral_constant.h"
+#include "same_type.h"
+#include "enable_if.h"
+#include "is_wide_string.h"
+#include "is_arithmetic.h"
+#include "char_type.h"
+#include "named_object.h"
+#include "is_convertible.h"
+#include "has_iterator.h"
+#include "expands_to_logical.h"
+#include "matrix_interface.h"
+#include "is_sugar_expression.h"
+#include "is_eigen_base.h"
+#include "has_na.h"
+#include "storage_type.h"
+#include "r_sexptype_traits.h"
+#include "r_type_traits.h"
+#include "un_pointer.h"
+#include "is_pointer.h"
+#include "wrap_type_traits.h"
+#include "longlong.h"
+#include "module_wrap_traits.h"
+#include "is_na.h"
+#include "is_finite.h"
+#include "is_infinite.h"
+#include "is_nan.h"
+#include "is_bool.h"
+#include "if_.h"
+#include "get_na.h"
+#include "is_trivial.h"
+#include "init_type.h"
 
-#include <Rcpp/traits/is_const.h>
-#include <Rcpp/traits/is_reference.h>
-#include <Rcpp/traits/remove_const.h>
-#include <Rcpp/traits/remove_reference.h>
-#include <Rcpp/traits/remove_const_and_reference.h>
-#include <Rcpp/traits/result_of.h>
-#include <Rcpp/traits/is_module_object.h>
-#include <Rcpp/traits/is_primitive.h>
+#include "is_const.h"
+#include "is_reference.h"
+#include "remove_const.h"
+#include "remove_reference.h"
+#include "remove_const_and_reference.h"
+#include "result_of.h"
+#include "is_module_object.h"
+#include "is_primitive.h"
 
-#include <Rcpp/traits/one_type.h>
+#include one_type.h"
 
 #endif
 
