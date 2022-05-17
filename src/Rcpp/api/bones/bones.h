@@ -22,8 +22,8 @@
 #ifndef Rcpp__api__bones__bones_h
 #define Rcpp__api__bones__bones_h
 
-#include <Rcpp/api/bones/wrap_extra_steps.h>
-#include <Rcpp/api/bones/Date.h>
-#include <Rcpp/api/bones/Datetime.h>
+#include "wrap_extra_steps.h"
+#include "Date.h"
+#include "Datetime.h"
 
 #endif
