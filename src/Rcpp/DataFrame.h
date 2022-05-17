@@ -118,7 +118,7 @@ namespace Rcpp{
             return DataFrame_Impl() ;
         }
 
-        #include <Rcpp/generated/DataFrame_generated.h>
+        #include "generated/DataFrame_generated.h"
 
     private:
         void set__(SEXP x){
