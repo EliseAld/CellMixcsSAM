@@ -26,7 +26,7 @@
 // #define RCPP_DEBUG_LEVEL 1
 // #define RCPP_DEBUG_MODULE_LEVEL 1
 
-#include <Rcpp/r/headers.h>
+#include "Rcpp/r/headers.h"
 
 /**
  * \brief Rcpp API
@@ -65,13 +65,13 @@ namespace Rcpp {
 #include <cfloat>
 #include <limits>
 #include <typeinfo>
-#include <Rcpp/sprintf.h>
-#include <R_ext/Callbacks.h>
-#include <R_ext/Visibility.h>
-#include <Rcpp/utils/tinyformat.h>
+#include "Rcpp/sprintf.h"
+#include "R_ext/Callbacks.h"
+#include "R_ext/Visibility.h"
+#include "Rcpp/utils/tinyformat.h"
 
-#include <Rmath.h>
-#include <Rcpp/sugar/undoRmath.h>
+#include "Rmath.h"
+#include "Rcpp/sugar/undoRmath.h"
 
 namespace Rcpp {
 
@@ -121,23 +121,23 @@ namespace Rcpp {
 
 }
 
-#include <Rcpp/storage/storage.h>
-#include <Rcpp/protection/protection.h>
-#include <Rcpp/routines.h>
-#include <Rcpp/exceptions.h>
-#include <Rcpp/proxy/proxy.h>
+#include "Rcpp/storage/storage.h"
+#include "Rcpp/protection/protection.h"
+#include "Rcpp/routines.h"
+#include "Rcpp/exceptions.h"
+#include "Rcpp/proxy/proxy.h"
 
 #ifdef RCPP_USING_UNWIND_PROTECT
-  #include <Rcpp/unwindProtect.h>
+  #include "Rcpp/unwindProtect.h"
 #endif
 
-#include <Rcpp/lang.h>
-#include <Rcpp/complex.h>
-#include <Rcpp/barrier.h>
+#include "Rcpp/lang.h"
+#include "Rcpp/complex.h"
+#include "Rcpp/barrier.h"
 
 #define RcppExport extern "C" attribute_visible
 
-#include <Rcpp/Interrupt.h>
+#include "Rcpp/Interrupt.h"
 
 namespace Rcpp {
     template <typename T> class object;
@@ -147,42 +147,42 @@ namespace Rcpp {
     }
 }
 
-#include <Rcpp/longlong.h>
+#include "Rcpp/longlong.h"
 
-#include <Rcpp/internal/na.h>
-#include <Rcpp/internal/NAComparator.h>
-#include <Rcpp/internal/NAEquals.h>
+#include "Rcpp/internal/na.h"
+#include "Rcpp/internal/NAComparator.h"
+#include "Rcpp/internal/NAEquals.h"
 
-#include <Rcpp/traits/traits.h>
-#include <Rcpp/Named.h>
+#include "Rcpp/traits/traits.h"
+#include "Rcpp/Named.h"
 
-#include <Rcpp/internal/caster.h>
-#include <Rcpp/internal/r_vector.h>
-#include <Rcpp/r_cast.h>
+#include "Rcpp/internal/caster.h"
+#include "Rcpp/internal/r_vector.h"
+#include "Rcpp/r_cast.h"
 
-#include <Rcpp/api/bones/bones.h>
+#include "Rcpp/api/bones/bones.h"
 
-#include <Rcpp/internal/export.h>
-#include <Rcpp/internal/r_coerce.h>
-#include <Rcpp/as.h>
-#include <Rcpp/InputParameter.h>
-#include <Rcpp/is.h>
+#include "Rcpp/internal/export.h"
+#include "Rcpp/internal/r_coerce.h"
+#include "Rcpp/as.h"
+#include "Rcpp/InputParameter.h"
+#include "Rcpp/is.h"
 
-#include <Rcpp/vector/VectorBase.h>
-#include <Rcpp/vector/MatrixBase.h>
+#include "Rcpp/vector/VectorBase.h"
+#include "Rcpp/vector/MatrixBase.h"
 
-#include <Rcpp/internal/ListInitialization.h>
-#include <Rcpp/internal/Proxy_Iterator.h>
-#include <Rcpp/internal/SEXP_Iterator.h>
-#include <Rcpp/internal/converter.h>
+#include "Rcpp/internal/ListInitialization.h"
+#include "Rcpp/internal/Proxy_Iterator.h"
+#include "Rcpp/internal/SEXP_Iterator.h"
+#include "Rcpp/internal/converter.h"
 
-#include <Rcpp/print.h>
-#include <Rcpp/algo.h>
+#include "Rcpp/print.h"
+#include "Rcpp/algo.h"
 
-#include <Rcpp/sugar/sugar_forward.h>
+#include "Rcpp/sugar/sugar_forward.h"
 
-#include <Rcpp/iostream/Rstreambuf.h>
+#include "Rcpp/iostream/Rstreambuf.h"
 
-#include <Rcpp/internal/wrap.h>
+#include "Rcpp/internal/wrap.h"
 
 #endif
