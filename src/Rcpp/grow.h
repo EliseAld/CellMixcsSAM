@@ -70,7 +70,7 @@ namespace Rcpp {
         return grow(Rf_mkString(head), y);
     }
 
-    #include <Rcpp/generated/grow__pairlist.h>
+    #include "generated/grow__pairlist.h"
 
 } // namespace Rcpp
 
