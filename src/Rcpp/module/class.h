@@ -111,8 +111,8 @@
             return constructor( docstring, valid ) ;
         }
 
-#include <Rcpp/module/Module_generated_class_constructor.h>
-#include <Rcpp/module/Module_generated_class_factory.h>
+#include "Module_generated_class_constructor.h"
+#include "Module_generated_class_factory.h"
 
     public:
 
@@ -253,8 +253,8 @@
             return *this ;
         }
 
-#include <Rcpp/module/Module_generated_method.h>
-#include <Rcpp/module/Module_generated_Pointer_method.h>
+#include "Module_generated_method.h"
+#include "Module_generated_Pointer_method.h"
 
         bool has_method( const std::string& m){
             return vec_methods.find(m) != vec_methods.end() ;
@@ -448,9 +448,9 @@
             return out ;
         }
 
-#include <Rcpp/module/Module_Field.h>
+#include "Module_Field.h"
 
-#include <Rcpp/module/Module_Add_Property.h>
+#include "Module_Add_Property.h"
 
         self& finalizer( void (*f)(Class*) ){
             SetFinalizer( new FunctionFinalizer<Class>( f ) ) ;
