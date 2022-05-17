@@ -17,16 +17,16 @@
 
 #ifndef Rcpp_proxy_proxy_h
 
-#include <Rcpp/proxy/GenericProxy.h>
+#include "GenericProxy.h"
 
-#include <Rcpp/proxy/NamesProxy.h>
-#include <Rcpp/proxy/RObjectMethods.h>
-#include <Rcpp/proxy/AttributeProxy.h>
-#include <Rcpp/proxy/TagProxy.h>
-#include <Rcpp/proxy/ProtectedProxy.h>
-#include <Rcpp/proxy/SlotProxy.h>
-#include <Rcpp/proxy/Binding.h>
-#include <Rcpp/proxy/FieldProxy.h>
-#include <Rcpp/proxy/DottedPairProxy.h>
+#include "NamesProxy.h"
+#include "RObjectMethods.h"
+#include "AttributeProxy.h"
+#include "TagProxy.h"
+#include ProtectedProxy.h"
+#include "SlotProxy.h"
+#include "Binding.h"
+#include "FieldProxy.h"
+#include "DottedPairProxy.h"
 
 #endif
